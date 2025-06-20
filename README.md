@@ -1,16 +1,22 @@
 # kt_bloc
 
-A new Flutter project.
+Bloc - business logic component. Один из наиболее популярных стейт менеджеров для Flutter.
+Стейт менеджер - Набор технологий и архитектурных решения который позволяет управлять и настраивать состояние приложения.
+Стейт менеджеры делают код более понятным и масштабируемым. Их суть в том что они добавляют отдельный слой в приложение, в котором будет происходить управление стейтом приложения.
+
+# Как звучит задание:
+
+Написать приложение использованием чистой архитектуры и Bloc.
+В качестве ответа прикрепить ссылку на репозиторий с кодом
+15 баллов - при выполнении все условий.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Данное приложение использует библиотеку flutter_bloc для управления состоянием. В нем реализованы следующие функции:
 
-A few resources to get you started if this is your first Flutter project:
+- Загрузка данных при запуске
+- Отображение списка элементов
+- Обновление данных по кнопке
+- Удаление элементов из списка
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Чтобы запустить тыкните в терминале "flutter pub get", а потом "flutter run"
